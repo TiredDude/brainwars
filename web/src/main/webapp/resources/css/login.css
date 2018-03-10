@@ -1,0 +1,9 @@
+body{width:100%; height:100%; margin:0px; padding:0px; background: url(images/BG.jpg) repeat-x #fff; overflow-x:hidden}
+.page {width: 1000px; height: 100%; margin: 0px 135px; position: relative;}
+.header p{ font-family: Chiller; margin: -10px; text-align: center;}
+.entry{ display: inline-block; margin-top: 145px; margin-left: -85px; position: relative; float: left; left: 40%;}
+.entry p{ font-family: Chiller; font-size: 30px; margin: 5px;}
+.user-name, .user-password{ border: 3px solid #e7e7e7; border-radius: 7px; outline: none; width: 175px; height: 30px;}
+.user-name:focus, .user-password:focus{ border: 3px solid #000;}
+.log-in{ margin-left: 20px; width: 55px; height: 55px; border: 1px solid #000; border-radius: 50% 50%; background-color: #000; color: #FFF; font-size: 10px; outline: none; cursor: pointer;}
+.log-in:hover{ box-shadow:6px 5px 8px 1px rgba(0, 0, 0, 0.7); transition: box-shadow .4s ease-in-out .3s;}

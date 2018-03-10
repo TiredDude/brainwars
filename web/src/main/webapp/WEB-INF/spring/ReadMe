@@ -1,0 +1,9 @@
+Possible structure:
+
+applicationContext-datasource.xml: This file contains all data source references used in the application.
+applicationContext-dao.xml: This file contains all data access objects used for retrieving data from a data source.
+applicationContext-service.xml: This file contains all service layer business logic.
+applicationContext-controller.xml: I include this file if the application is a SpringMVC application. It includes handler mappings and controllers.
+applicationContext-config.xml: This file contains basic configuration information. Things such as defined property files, and other required beans.
+applicationContext-security.xml: I include this file if the project uses Spring Security as its security layer.
+applicationContext-struts.xml: If you’re integrating Spring into your Struts application, I include this file to handle all Spring bean definitions for the actual Struts Action objects.

@@ -1,0 +1,13 @@
+<div class="dialog" id="select-category-dialog">
+	<div class="category-container">
+	<% _.each(categories,function(category,key,list){ %>
+		<div class="category-item">
+			<p><%= category.name %></p>
+		</div>
+    <% }) %>
+	</div>
+	<div class="notification-bar">
+		<p><%= notification %></p>
+	</div>
+</div>
+

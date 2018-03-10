@@ -1,0 +1,81 @@
+@CHARSET "UTF-8"; 
+
+body {margin: 0px; padding: 0px; height: 100%; text-align: center; overflow: hidden; font-size: 15px; font-family: Viner Hand ITC;}
+
+p {}
+
+span {}
+
+a {text-decoration: none;}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+.message-text{font-family: verdana;}
+
+.container {width: 1005px; height: 100%; margin: 0 auto; position: relative; z-index: 1;}
+
+.header {height: 120px; text-align: center;}
+.header h1 {font-size: 7em; margin: 0px; margin-top: 5px;}
+
+.navigation {position: relative; list-style-type: none; text-align: center; padding: 0px; margin: 0px; margin-top: 20px; font-size: 2.5em;}
+.navigation li {display: inline-block;}
+.navigation li a {text-decoration: none; padding: 0px 25px;}
+
+
+.block {display: inline-block; position: relative; vertical-align: top;}
+
+.outer-block {display: inline-block; position: absolute;}
+
+.small-block {width: 450px; height: 320px; margin: 15px; padding: 10px;}
+
+.medium-block {width: 930px; height: 320px; margin: 15px; padding: 10px;}
+
+.content {position: relative; margin-top: 20px;}
+.content.game-page-content a{border-radius: 5px; padding: 10px 10px; position: absolute; width: 180px; bottom: 20px; margin-left:-100px; left:50%;}
+
+.interactive {}
+.interactive .user-picture-medium,  .interactive .user-picture-small{display:inline-block; vertical-align: middle;}
+.interactive .user-name {display: inline-block; vertical-align: middle;  margin-top: 5px; margin-left: 5px; font-size: 1.5em;}
+
+.interactive .right-link {font-size: 1.2em; margin-left: 25px;}
+
+.interactive .chat {position: relative; width: 400px; text-align: left; z-index: 2}
+.interactive .chat .message {position: relative; text-align: left; margin-bottom: 20px; padding-left: 50px;}
+.interactive .chat .message .user-name {display: block; vertical-align: top; margin-left: 10px; font-size: 1em; font-weight: 600;}
+.interactive .chat .message .message-text {display: inline-block;  margin-left: 15px ;padding: 10px;border-radius: 6px;}
+.interactive .chat .message .user-picture-small {position: absolute; left: 0px; top: 3px;}
+
+.interactive .chat .message-form input {width: 200px; border-radius: 5px; height: 20px; margin-left: 10px; padding-left: 3px;}
+.interactive .chat .message-form button {width: 50px; border-radius: 5px; height: 25px;}
+
+
+.copyright-block {text-align: center; font-size: 0.8em; bottom: 0px; position: absolute; width: 100%;}
+
+.user-picture-small {width: 50px; height: 50px;}
+
+.user-picture-medium {width: 70px; height: 70px;}
+
+.top {top: 20px;}
+
+.bottom {bottom: 20px;}
+
+.left {left: 20px;}
+
+.right {right: 20px;}
+
+.round-borders {border-radius: 10px;}
+
+.border-small {border: 1px solid;}
+
+.border-medium {border: 2px solid;}
+
+.clicable {cursor: pointer;}
+
+.loader {opacity : 0;}
+

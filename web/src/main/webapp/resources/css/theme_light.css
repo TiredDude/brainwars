@@ -1,0 +1,25 @@
+@CHARSET "UTF-8"; 
+
+body.theme-light {background: #e6e6e6; color: #333; -webkit-transition: all 1s;}
+
+.theme-light p {}
+
+.theme-light span {}
+
+.theme-light a {color: #333; -webkit-transition: all 0.5s;}
+
+.theme-light .navigation a:HOVER {color: #F90 !important;}
+
+.theme-light .block {background: #333; -webkit-transition: all 0.5s;}
+
+.theme-light .border_medium {border-color: #333;}
+
+.theme-light .block {box-shadow: 0px 0px 1px 1px #FFF; color: #fff; }
+
+.theme-light .interactive .chat .message .message-text {background: #fff; color: #333;}
+
+.content.game-page-content a{color: #333; background: #e6e6e6; border: 1px solid #BBB; font-weight: bold; -webkit-transition: all 0.5s;}
+
+.content.game-page-content a:HOVER {border-color: #F90; color: #F90;}
+
+.selected, .selected a {color: #F90 !important;}

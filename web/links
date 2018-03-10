@@ -1,0 +1,32 @@
+
+========== Spring Application Context ==========
+
+Spring property substitution for test and production:
+	http://stackoverflow.com/questions/9470551/spring-property-substitution-for-test-and-production
+	
+========== Spring Data ==========
+
+Introducing: Spring Data JPA Tutorial:
+	http://www.petrikainulainen.net/spring-data-jpa-tutorial/
+	
+Working with Spring Data Repositories:
+	http://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+
+Spring DATA Examples:
+	https://github.com/spring-projects/spring-data-jpa-examples/tree/master/spring-data-jpa-example/src/main/java/org/springframework/data/jpa/example/repository
+
+Possible Generic DAO Implementation:
+	http://www.javacodegeeks.com/2013/01/spring-data-jdbc-generic-dao-implementation-most-lightweight-orm-ever.html
+	
+========== JPA ==========
+
+Great JPA examples:
+	http://en.wikibooks.org/wiki/Java_Persistence
+
+========== Google Maps API ==========
+
+Google maps country border example:
+	http://stackoverflow.com/questions/10874686/google-maps-v3-draw-german-state-polygons
+	
+========== Spring Security ==========
+	http://docs.spring.io/spring-security/site/docs/3.1.x/reference/ns-config.html
